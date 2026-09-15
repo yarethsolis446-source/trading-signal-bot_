@@ -1,6 +1,9 @@
-name: trading_signal_iphone
+name: trading_analizer
+
 description: Reconstructed Flutter trading signal app based on the supplied Android APK.
+
 publish_to: "none"
+
 version: 1.0.0+1
 
 environment:
@@ -9,6 +12,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
   http: ^1.2.2
   intl: ^0.19.0
   syncfusion_flutter_charts: ^27.2.5
@@ -18,9 +22,18 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
   flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.3
 
 flutter:
   uses-material-design: true
+
   assets:
     - assets/icon/app_icon.png
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  min_sdk_android: 21
