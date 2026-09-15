@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-09-15T17:17:21Z",
+  "source": "Biquote",
+  "candle_timeframe": "1m",
+  "entry": "close_of_next_1m_candle",
+  "requested_days": 30,
+  "symbols": [
+    "EURUSD",
+    "GBPUSD",
+    "USDJPY"
+  ],
+  "expirations_minutes": [
+    1,
+    2,
+    3,
+    5,
+    10,
+    15
+  ],
+  "history": {
+    "EURUSD": {
+      "candles": 300,
+      "start": "2026-09-15T12:16:00+00:00",
+      "end": "2026-09-15T17:15:00+00:00",
+      "coverage": "0 days 04:59:00"
+    },
+    "GBPUSD": {
+      "candles": 300,
+      "start": "2026-09-15T12:16:00+00:00",
+      "end": "2026-09-15T17:15:00+00:00",
+      "coverage": "0 days 04:59:00"
+    },
+    "USDJPY": {
+      "candles": 300,
+      "start": "2026-09-15T12:17:00+00:00",
+      "end": "2026-09-15T17:16:00+00:00",
+      "coverage": "0 days 04:59:00"
+    }
+  },
+  "results": {
+    "trades": 2599,
+    "wins": 1176,
+    "losses": 1423,
+    "draws": 47,
+    "win_rate": 45.248172373989995,
+    "max_win_streak": 24,
+    "max_loss_streak": 29
+  }
+}
