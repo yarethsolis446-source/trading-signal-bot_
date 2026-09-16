@@ -1,0 +1,22 @@
+{
+  "name": "Trading analizer",
+  "short_name": "Trading analizer",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#080D1D",
+  "theme_color": "#080D1D",
+  "description": "Trading analizer - señales ALZA, BAJA y ESPERAR",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icons/app_icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/app_icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

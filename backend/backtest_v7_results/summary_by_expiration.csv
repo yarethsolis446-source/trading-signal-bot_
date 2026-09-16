@@ -1,0 +1,5 @@
+expiration_min,trades,wins,losses,ties,win_rate,profit_factor,expectancy_per_trade,net_units,max_drawdown_units,longest_win_streak,longest_loss_streak,break_even_win_rate
+1,190,94,86,10,52.22,0.8744,-0.05684,-10.8,-16.6,8,4,55.56
+2,190,94,90,6,51.09,0.8356,-0.07789,-14.8,-21.2,6,5,55.56
+3,189,94,89,6,51.37,0.8449,-0.07302,-13.8,-24.2,6,7,55.56
+5,188,88,92,8,48.89,0.7652,-0.11489,-21.6,-28.4,11,7,55.56

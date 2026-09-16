@@ -1,0 +1,69 @@
+{
+  "strategy": "Trading analizer V4",
+  "historical_source": "Dukascopy tick data",
+  "start": "2025-01-01T00:00:00Z",
+  "end": "2025-01-02T00:00:00Z",
+  "symbols": [
+    "EURUSD"
+  ],
+  "timeframes": [
+    "1m",
+    "5m"
+  ],
+  "entry": "next 1M candle OPEN",
+  "expiration": "selected timeframe",
+  "overall": {
+    "signals": 54,
+    "wins": 24,
+    "losses": 29,
+    "ties": 1,
+    "unresolved": 0,
+    "win_rate": 44.44
+  },
+  "by_symbol": {
+    "EURUSD": {
+      "signals": 54,
+      "wins": 24,
+      "losses": 29,
+      "ties": 1,
+      "unresolved": 0,
+      "by_timeframe": {
+        "1m": {
+          "signals": 54,
+          "wins": 24,
+          "losses": 29,
+          "ties": 1,
+          "unresolved": 0,
+          "win_rate": 44.44
+        },
+        "5m": {
+          "signals": 0,
+          "wins": 0,
+          "losses": 0,
+          "ties": 0,
+          "unresolved": 0,
+          "win_rate": null
+        }
+      },
+      "win_rate": 44.44
+    }
+  },
+  "by_timeframe": {
+    "1m": {
+      "signals": 54,
+      "wins": 24,
+      "losses": 29,
+      "ties": 1,
+      "unresolved": 0,
+      "win_rate": 44.44
+    },
+    "5m": {
+      "signals": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "unresolved": 0,
+      "win_rate": null
+    }
+  }
+}

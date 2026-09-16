@@ -1,0 +1,87 @@
+================================================================================
+TRADING ANALIZER V7 — REPORTE DE BACKTEST
+================================================================================
+Periodo UTC: 2026-03-20T18:14:00Z → 2026-09-16T18:14:00Z
+Velas: 1M
+Símbolos: EURUSD, GBPUSD, USDJPY, USDCHF, AUDUSD, USDCAD, NZDUSD
+Expiraciones: [1, 2, 3, 5]
+Payout hipotético usado para expectativa: 80.00%
+
+NOTA: WIN/LOSS se determina únicamente por precio. No se modela spread, slippage, latencia ni reglas internas de la plataforma de opciones.
+
+--------------------------------------------------------------------------------
+EXPIRACIÓN: 1 MIN
+--------------------------------------------------------------------------------
+Operaciones: 190
+Wins: 94
+Losses: 86
+Ties: 10
+Win rate: 52.22%
+Break-even con payout: 55.56%
+Profit factor: 0.8744
+Expectativa/operación: -0.05684 unidades
+Resultado neto: -10.8000 unidades
+Máx. drawdown: -16.6000 unidades
+Racha máxima WIN: 8
+Racha máxima LOSS: 4
+
+--------------------------------------------------------------------------------
+EXPIRACIÓN: 2 MIN
+--------------------------------------------------------------------------------
+Operaciones: 190
+Wins: 94
+Losses: 90
+Ties: 6
+Win rate: 51.09%
+Break-even con payout: 55.56%
+Profit factor: 0.8356
+Expectativa/operación: -0.07789 unidades
+Resultado neto: -14.8000 unidades
+Máx. drawdown: -21.2000 unidades
+Racha máxima WIN: 6
+Racha máxima LOSS: 5
+
+--------------------------------------------------------------------------------
+EXPIRACIÓN: 3 MIN
+--------------------------------------------------------------------------------
+Operaciones: 189
+Wins: 94
+Losses: 89
+Ties: 6
+Win rate: 51.37%
+Break-even con payout: 55.56%
+Profit factor: 0.8449
+Expectativa/operación: -0.07302 unidades
+Resultado neto: -13.8000 unidades
+Máx. drawdown: -24.2000 unidades
+Racha máxima WIN: 6
+Racha máxima LOSS: 7
+
+--------------------------------------------------------------------------------
+EXPIRACIÓN: 5 MIN
+--------------------------------------------------------------------------------
+Operaciones: 188
+Wins: 88
+Losses: 92
+Ties: 8
+Win rate: 48.89%
+Break-even con payout: 55.56%
+Profit factor: 0.7652
+Expectativa/operación: -0.11489 unidades
+Resultado neto: -21.6000 unidades
+Máx. drawdown: -28.4000 unidades
+Racha máxima WIN: 11
+Racha máxima LOSS: 7
+
+================================================================================
+ARCHIVOS GENERADOS
+================================================================================
+backtest_v7_results\all_trades.csv
+backtest_v7_results\summary_by_expiration.csv
+backtest_v7_results\summary_by_asset.csv
+backtest_v7_results\summary_by_setup.csv
+backtest_v7_results\summary_by_strength.csv
+backtest_v7_results\summary_by_hour.csv
+backtest_v7_results\summary_by_month.csv
+backtest_v7_results\summary_by_direction.csv
+backtest_v7_results\equity_curve.csv
